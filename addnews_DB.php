@@ -2,8 +2,7 @@
 
 	$servername = "localhost";
 	$username = "root";
-	
-$password = "";
+	$password = "";
 	
 $link = mysql_connect($servername, $username, $password);
 	

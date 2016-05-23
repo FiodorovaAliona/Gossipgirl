@@ -1,4 +1,4 @@
-п»ї<head>
+<head>
 
 	<meta http-equiv="Content-Type" content="text/html; Charset=UTF-8">
 
@@ -11,13 +11,12 @@
 	<div id="form2">
 		
 <form action="addnews_DB.php" align="center" method="post">
-		<p>Р—Р°РіР»РѕРІРѕРє: <input type="text" name="title"/></p>
-		<p>РўРµРєСЃС‚:<textarea id="text_comment" placeholder="Write your Message Here" name="text"></textarea></p>
-		<p>РђРІС‚РѕСЂ: <input type="text" name="author"/></p>
+		<p>Загловок: <input type="text" name="title"/></p>
+		<p>Текст:<textarea id="text_comment" placeholder="Write your Message Here" name="text"></textarea></p>
+		<p>Автор: <input type="text" name="author"/></p>
 		<p><input type="submit" /></p>
 	
 	</div>
 	
 </form>
-
 
