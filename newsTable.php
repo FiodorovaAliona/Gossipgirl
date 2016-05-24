@@ -85,7 +85,7 @@ var last_get;
 		
 		$.each(data, function(index, element) {
 		
-			var html='<table>';
+			var html='<table class = 'news'>';
 		
 			html += '<tr>';
 
@@ -130,7 +130,7 @@ function loadNewNews(){
 
 					$.each(data, function(index, element) {
 
-						var html='<table>';
+						var html='<table >';
 			
 			html += '<tr>';
 
